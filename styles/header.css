@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cv_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cv_title > h1 {
+    margin: 12px 0;
+}
+
+#cv_title > h3 {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 24px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+
