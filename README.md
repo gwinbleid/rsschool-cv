@@ -1,1 +1,1 @@
-#cv [https://gwinbleid.github.io/rsschool-cv/cv](https://gwinbleid.github.io/rsschool-cv/cv)
+#cv [https://gwinbleid.github.io/rsschool-cv/index.html](https://gwinbleid.github.io/rsschool-cv/index.html)
