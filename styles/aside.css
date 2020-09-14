@@ -1,3 +1,10 @@
+aside {
+    flex: 1;
+}
+
 #contact_links {
     list-style: none;
+    padding: 0;
 }
+
+

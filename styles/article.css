@@ -1,0 +1,22 @@
+article {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.article_headers {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.article_headers > h2 {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.section_wrappper {
+    border-left: 2px solid dimgray;
+    margin-left: 20px;
+    padding-left: 40px;
+}

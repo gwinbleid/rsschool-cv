@@ -3,18 +3,21 @@
 @import "header.css";
 @import "main.css";
 @import "aside.css";
+@import "article.css";
+@import "font-awesome.css";
 
 body {
     background-color: slategray;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', Arial, sans-serif;
+    color: dimgray;
 }
 
 #wrapper {
     margin: 32px auto;
     width: 1024px;
-    background-color: azure;
+    background-color: whitesmoke;
 }
 
 header, main {
@@ -31,5 +34,6 @@ h1, h2 {
 }
 
 h2 {
+    display: flex;
     border-bottom: 2px solid black;
 }

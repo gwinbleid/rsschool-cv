@@ -1,0 +1,16 @@
+.fas, .fab {
+    font-size: 24px;
+}
+
+.iconic {
+    display: flex;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    color: whitesmoke;
+    background-color: dimgray;
+}
+
+.iconic > .fab, .fas {
+    margin: auto;
+}
