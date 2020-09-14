@@ -1,0 +1,22 @@
+.fas, .fab {
+    /* Typography */
+    font-size: 24px;
+}
+
+.iconic {
+    /* Box-model */
+    display: flex;
+    height: 48px;
+    width: 48px;
+
+    /* Typography */
+    color: whitesmoke;
+
+    /* Visual */
+    background-color: dimgray;
+    border-radius: 50%;
+}
+
+.iconic > .article_icon {
+    margin: auto;
+}
