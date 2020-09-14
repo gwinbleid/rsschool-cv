@@ -4,6 +4,10 @@ header {
     padding-bottom: 32px;
 }
 
+#cv_header {
+    border-left: 32px solid;
+}
+
 img {
     height: 200px;
     width: 200px;

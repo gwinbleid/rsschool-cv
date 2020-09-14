@@ -2,9 +2,52 @@ aside {
     flex: 1;
 }
 
-#contact_links {
-    list-style: none;
-    padding: 0;
+.aside_inner_sections {
+    margin-left: 15px;
 }
 
+.asides_lists {
+    list-style: none;
+    padding: 0;
+    margin-left: 15px;
+}
 
+.marked_aside_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.contact_link {
+    text-decoration: none;
+    color: dimgray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.contact_link:nth-last-child {
+    margin-bottom: 0;
+}
+
+.contact_link:hover {
+    cursor: pointer;
+    color: darkcyan;
+}
+
+.aside_fa {
+    width: 24px;
+    margin-right: 15px;
+}
+
+.interest_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.interest_item > i {
+    margin-right: 15px;
+}
