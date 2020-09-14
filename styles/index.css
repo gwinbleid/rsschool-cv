@@ -1,40 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto:ital@0;1&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css');
-
-@import "header.css";
-@import "main.css";
-@import "aside.css";
-@import "article.css";
-@import "font-awesome.css";
-
 body {
-    background-color: slategray;
+    /* Box-model */
     padding: 0;
     margin: 0;
+
+    /* Typography */
     font-family: 'Roboto', Arial, sans-serif;
     color: dimgray;
+
+    /* Visual */
+    background-color: slategray;
 }
 
 #wrapper {
+    /* Box-model */
     margin: 32px auto;
     width: 1024px;
+
+    /* Visual */
     background-color: whitesmoke;
 }
 
 header, main {
-
+    /* Box-model */
     margin-right: 32px;
 }
 
+header {
+    /* Box-model */
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+main {
+    /* Box-model */
+    display: flex;
+    margin-left: 32px;
+}
+
 h1, h2, h3, b, strong {
+    /* Typography */
     font-family: 'Raleway', Verdana, sans-serif;
 }
 
 h1, h2 {
+    /* Typography */
     text-transform: uppercase;
 }
 
 h2 {
+    /* Box-model */
     display: flex;
     border-bottom: 2px solid black;
 }

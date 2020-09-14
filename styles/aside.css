@@ -1,47 +1,59 @@
 aside {
+    /* Box-model */
     flex: 1;
 }
 
 .aside_inner_sections {
+    /* Box-model */
     margin-left: 15px;
 }
 
 .asides_lists {
-    list-style: none;
+    /* Box-model */
     padding: 0;
     margin-left: 15px;
+
+    /* Typography */
+    list-style: none;
 }
 
 .marked_aside_list {
+    /* Box-model */
     padding: 0;
     margin-left: 15px;
 }
 
 .contact_link {
-    text-decoration: none;
-    color: dimgray;
+    /* Box-model */
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
     margin-bottom: 10px;
+
+    /* Typography */
+    text-decoration: none;
+    color: dimgray;
 }
 
 .contact_link:nth-last-child {
+    /* Box-model */
     margin-bottom: 0;
 }
 
 .contact_link:hover {
+    /* Typography */
     cursor: pointer;
     color: darkcyan;
 }
 
 .aside_fa {
+    /* Box-model */
     width: 24px;
     margin-right: 15px;
 }
 
 .interest_item {
+    /* Box-model */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -49,5 +61,6 @@ aside {
 }
 
 .interest_item > i {
+    /* Box-model */
     margin-right: 15px;
 }

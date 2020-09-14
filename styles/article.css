@@ -1,9 +1,11 @@
 article {
+    /* Box-model */
     flex: 2;
     margin-left: 20px;
 }
 
 .article_headers {
+    /* Box-model */
     display: flex;
     align-items: center;
     padding: 0;
@@ -11,22 +13,30 @@ article {
 }
 
 .article_headers > h2 {
+    /* Box-model */
     flex: 1;
     margin-left: 20px;
 }
 
 .section_wrappper {
-    border-left: 3px solid dimgray;
+    /* Box-model */
     margin-left: 21px;
     padding-left: 40px;
+
+    /* Visual */
+    border-left: 3px solid dimgray;
 }
 
 .education_title {
-    font-style: italic;
+    /* Box-model */
     margin-bottom: 5px;
+
+    /* Typography */
+    font-style: italic;
 }
 
 .university_date {
+    /* Box-model */
     margin-top: 0;
 }
 
@@ -35,48 +45,65 @@ article {
 }
 
 .useful_link:hover {
+    /* Typography */
     color: darkcyan;
 }
 
 .job_title {
+    /* Box-model */
     margin-bottom: 0;
 }
 
 .job_company {
+    /* Box-model */
+    margin-top: 10px;
+
+    /* Typography */
     font-size: 0.9em;
     font-style: italic;
-    margin-top: 10px;
 }
 
 #git_section {
+    /* Box-model */
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
 }
 
 #git_link {
+    /* Positioning */
+    position: relative;
+    right: -32px;
+
+    /* Box-model */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: dimgray;
-    color: whitesmoke;
-    position: relative;
-    right: -32px;
     height: 40px;
     width: 200px;
-    border-top-left-radius: 50px;
-    text-align: center;
-    font-size: 20px;
     padding-top: 8px;
-    text-decoration: none;
+
+    /* Typography */
     font-family: 'Raleway', Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+
+    /* Visual */
+    background-color: dimgray;
+    border-top-left-radius: 50px;
 }
 
 #git_link:hover {
-    background-color: darkcyan;
+    /* Typography */
     color: whitesmoke;
+
+    /* Visual */
+    background-color: darkcyan;
 }
 
 .git_nickname {
+    /* Box-model */
     margin-left: 10px;
 }
