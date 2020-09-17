@@ -1,0 +1,45 @@
+#cv_header {
+    /* Box-model */
+    border-left: 32px solid;
+}
+
+img {
+    /* Box-model */
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+
+    /* Visual */
+    border-radius: 50%;
+}
+
+#cv_title {
+    /* Box-model */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cv_title > h1 {
+    /* Box-model */
+    margin: 12px 0;
+}
+
+#cv_title > h3 {
+    /* Box-model */
+    margin: 0;
+
+    /* Typography */
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 24px;
+}
+
+h1 {
+    /* Typography */
+    font-size: 64px;
+}
+
+
